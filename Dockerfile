@@ -11,7 +11,7 @@ WORKDIR /projects
 RUN pip install flask
 RUN pip install pyjwt
 RUN pip install requests
-
+RUN pip install cryptography
 # Copy the content of the local src directory to the working directory
 COPY . .
 
