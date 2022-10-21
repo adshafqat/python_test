@@ -1,8 +1,8 @@
 FROM quay.io/devfile/python:slim
 
 # By default, listen on port 8081
-EXPOSE 8081/tcp
-ENV FLASK_PORT=8081
+EXPOSE 8080/tcp
+ENV FLASK_PORT=8080
 
 # Set the working directory in the container
 WORKDIR /projects
