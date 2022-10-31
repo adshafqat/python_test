@@ -8,7 +8,7 @@ def hello():
     ###########################
     # Change these parameters #
     ###########################
-    API_UID = ""
+    API_UID = "40f03a87c126f1190ba2ce11132a208c6ef585a839e290dfa81abdc1f888198d"
     FILE = "file.txt"
     ###########################
 
